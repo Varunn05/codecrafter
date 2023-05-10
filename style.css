@@ -1,0 +1,46 @@
+body {
+	background-image: url(image/sea.jpeg);
+	background-size: cover;
+}
+#navigation{
+    text-align: right;
+    display: inline;
+    color: #fff;
+    
+}
+.container {
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1 {
+    line-height: 0.5;
+	font-size: 3.2rem;
+	color: white;
+	margin-bottom: 50px;
+}
+
+form {
+	display: inline-block;
+    padding: 70px;
+}
+
+input[type=text] {
+    border-bottom: 1px solid #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+    opacity: 0.5;
+
+}
+
+button[type=submit] {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #1aeb83;
+	cursor: pointer;
+}
